@@ -4,11 +4,17 @@ import "../App.css";
 
 // ['menu','playing','finished']
 const Menu = () => {
-  const { gameState, setGameState } = useContext(gameStateContext);
+  const { gameState, setGameState, username, setUsername } =
+    useContext(gameStateContext);
   return (
     <div className="menu_container">
       <label htmlFor="menu_input">Enter Your Name:</label>
-      <input type="text" placeholder="Ex.How many" id="menu_input" />
+      <input
+        type="text"
+        placeholder="Ex.How many"
+        id="menu_input"
+        onChange={(event) => setUsername(event.target.value)}
+      />
       <button onClick={() => setGameState("playing")}>Start Quiz</button>
     </div>
   );

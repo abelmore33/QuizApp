@@ -20,6 +20,12 @@ button {
   margin-top: 10px;
   font-family: Helvetica;
   font-size: 20px;
+  border: none;
+}
+
+button:hover {
+  transition: 5sec background-color ease-in;
+  background-color: #4c9f9b;
 }
 
 input {
@@ -28,4 +34,15 @@ input {
   height: 50px;
   border-radius: 5px;
   font-size: 18px;
+}
+
+.quiz_container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #67b7b3;
 }
