@@ -1,0 +1,31 @@
+.main_container {
+  text-align: center;
+}
+
+.menu_container {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #67b7b3;
+}
+
+button {
+  width: 75%;
+  margin: 0 auto;
+  height: 50px;
+  margin-top: 10px;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+input {
+  width: 74%;
+  margin: 0 auto;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+}
