@@ -11,7 +11,7 @@ const Menu = () => {
       <label htmlFor="menu_input">Enter Your Name:</label>
       <input
         type="text"
-        placeholder="Ex.How many"
+        placeholder="Enter username..."
         id="menu_input"
         onChange={(event) => setUsername(event.target.value)}
       />
